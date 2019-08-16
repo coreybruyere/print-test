@@ -16,11 +16,21 @@ Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, 
 
 ## Nothing other than the Iframe below should be printed
 
-### PDF with object + iframe
+### PDFObject test run
+
+<div class="iframe-wrap">
+<div id="example1"></div>
+</div>
+
+<script>PDFObject.embed("https://research.google.com/pubs/archive/44678.pdf", "#example1");</script>
+
+<!-- ### PDF with object + iframe -->
+
+<!-- <button id="print-btn">Print it!</button>
 
 <div class="iframe-wrap">
   <object data="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf">
-    <iframe src="https://docs.google.com/viewer?url=https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf&embedded=true"></iframe>
+    <iframe src="https://research.google.com/pubs/archive/44678.pdf" id="iframeid"></iframe>
   </object>
 </div>
 
@@ -35,6 +45,6 @@ Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, 
 ### PDF with iframe only
 
 <div class="iframe-wrap">
-  <iframe src="https://research.google.com/pubs/archive/44678.pdf"
+  <iframe src=""
    width="800px" height="600px" >
-</div>
+</div> -->
