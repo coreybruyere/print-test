@@ -31,3 +31,10 @@ Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, 
     <embed src="ttps://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf" />
   </object>
 </div>
+
+### PDF with iframe only
+
+<div class="iframe-wrap">
+  <iframe src="https://research.google.com/pubs/archive/44678.pdf"
+   width="800px" height="600px" >
+</div>
