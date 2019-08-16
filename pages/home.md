@@ -18,6 +18,6 @@ Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, 
 
 <div class="iframe-wrap">
   <object data="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf">
-    <embed src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf" />
-  </object>
+    <iframe src="https://docs.google.com/viewer?url=https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf&embedded=true"></iframe>
+</object>
 </div>
