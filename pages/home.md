@@ -17,7 +17,7 @@ Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, 
 ## Nothing other than the Iframe below should be printed
 
 <div class="iframe-wrap">
-  <object data="http://www.pdf995.com/samples/pdf.pdf" type="application/pdf">
-    <embed src="http://www.pdf995.com/samples/pdf.pdf" type="application/pdf" />
+  <object data="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf">
+    <embed src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf" />
   </object>
 </div>
