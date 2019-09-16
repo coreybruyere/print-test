@@ -203,3 +203,10 @@ button {
   left: 0;
   top: 0;
 }
+
+button:focus {
+  -moz-outline-radius: 2px;
+  outline: 2px solid red;
+  outline-offset: 4px;
+  z-index: 100;
+}

@@ -14,15 +14,18 @@ This is a template for building a simple blog website with the [Eleventy static 
 
 Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
 
+<button>This is a button with outline offset Focus</button>
+
 ## Nothing other than the Iframe below should be printed
 
 ### PDFObject test run
 
+<!--
 <div class="iframe-wrap">
 <div id="example1"></div>
-</div>
+</div> -->
 
-<script>PDFObject.embed("https://research.google.com/pubs/archive/44678.pdf", "#example1");</script>
+<!-- <script>PDFObject.embed("https://research.google.com/pubs/archive/44678.pdf", "#example1");</script> -->
 
 <!-- ### PDF with object + iframe -->
 
